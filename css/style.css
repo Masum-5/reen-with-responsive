@@ -2162,6 +2162,7 @@ html{
     display: block;
     margin: 0 auto;
     padding-right: 30%;
+    margin-bottom:3rem;
 }
 .contact .contact-updates input::placeholder{
     font-size: 1.5rem;
@@ -2211,17 +2212,4 @@ footer .top i{
     height: 3rem;
     line-height: 3rem;
 }
-
-
-  
-
-
-
-
-
-
-
-
-
-
 }
