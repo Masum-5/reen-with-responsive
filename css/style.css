@@ -1,0 +1,2227 @@
+/*GLOBAL */
+html{
+    font-size:10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/*header top*/
+.header-top{
+    background:#f5f7fa;
+}
+.header-top .left{}
+.header-top .left a{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #506a85;
+}
+.header-top .left a:hover{
+    color: #00bc9c;
+}
+.header-top .left a i{
+    margin-right: 2rem;
+}
+.header-top .left p{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    color: #506a85;
+}
+.header-top .left p i{
+    margin-right: 1rem
+}
+.header-top .right{}
+.header-top .right a{
+    display: inline-block;
+    color: #506a85;
+    margin-left: 2rem;
+    
+}
+
+.header-top .right a i{
+    font-size: 2rem;
+    height: 100%;
+    width: 3rem;
+    text-align: center;
+    padding: 1rem 0;
+    transition: all .4s linear;
+}
+.header-top .facebook:hover{
+    background: #4668b3;
+    color: #fff;
+}
+.header-top .google:hover{
+    background: #de5745;
+    color: #fff;
+}
+.header-top .twitter:hover{
+    background: #2fbbed;
+    color: #fff;
+}
+.header-top .behance:hover{
+    background: #3079ff;
+    color: #fff;
+}
+.header-top .chorme:hover{
+    background: #eb6397;
+    color: #fff;
+}
+
+/*header nav starts*/
+
+.header-nav{
+    padding: 1rem 0;
+    background: #fff;
+    position: relative;
+}
+.header-nav .navbar{
+   
+}
+.header-nav .navbar-brand{
+    width: 10%;
+}
+.header-nav .navbar-brand img{
+    width: 100%;
+}
+.header-nav .navbar-nav{
+    margin-right: 3rem;
+    
+}
+.header-nav .nav-item{
+    margin-left: 2rem
+}
+.header-nav .nav-link{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #506a85;
+    transition: all .2s linear;
+    border: 1px solid transparent
+}
+.header-nav .nav-link:hover{
+    color: #00bc9c!important;
+    border: 1px solid #e6e9ed;
+    border-bottom: none;
+}
+.header-nav form a{
+    font-size: 1.4rem;
+    color: #506A85;
+}
+/*################### mega offer hover ##########################*/
+.mega{
+    
+}
+.mega:hover{
+    color: #00bc9c!important;
+    background: #f5f7fa;
+}
+.mega:hover .mega-menu{
+    display: block;
+}
+
+/*focus on*/
+.mega-menu{
+    transition: all .4s linear;
+    display:none;
+    left: 0;
+    position: absolute;
+    top: 90%;
+    background: #f5f7fa;
+    padding: 5rem 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+.focus{
+    border: none;
+}
+h5{
+     color: #506a85;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.focus .hover{
+    width: 100%;
+    position: relative;
+}
+.focus .hover img{
+    width: 100%;
+}
+.focus .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #17a78b;
+    opacity: 0;
+    transition: all .4s linear;
+}
+.focus .overlay a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2rem;
+}
+.focus .hover:hover .overlay{
+    opacity: .9;
+}
+.focus .card-body{
+    padding: 0;
+}
+.focus .card-body p{
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #73879c;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.focus .focus-btn{
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    border: none;
+    background: #17a78b;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+/*special pages*/
+.pages{}
+.pages h5{}
+.pages ul{
+    list-style: none;
+}
+.pages ul li{
+    margin-bottom: 1.5rem;
+}
+.pages ul li a{
+    font-size: 1.4rem;
+    color: #73879c;
+    font-weight: 600;
+}
+.pages ul a:hover{
+    color: #17A78B;
+}
+.pages ul li a i{
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    color: #17A78B;
+}
+
+
+/*latest works*/
+.works .hover{
+    position: relative;
+}
+.works .hover .img{
+    margin-bottom: 2.5rem;
+    
+}
+.works .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #17A78B;
+    opacity: 0;
+    transition: all .4s linear;
+}
+.works .overlay a{
+    position: absolute;
+    font-size: 2rem;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: ;
+    
+}
+.mega-menu .works .hover:hover .overlay{
+    opacity: .9;
+}
+
+/*about us*/
+
+.about{}
+.about h5{}
+.about p{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #73879c;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.about button{}
+.about .about-btn{
+    font-size: 1.6rem;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    border: none;
+    background: #17a78b;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+
+/*##########################end##########################*/
+
+/*banner starts*/
+
+.banner{
+    padding: 13rem 0;
+    background: url(../img/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;    
+}
+.banner:after{
+    content: "";
+    display: block;
+    clear: both;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #506a85;
+    z-index: -1;
+}
+.banner .banner-content{
+    text-align: center;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1rem;
+    color: #fff;
+    font-size: 6rem;
+    margin-bottom:4rem;
+}
+.banner p{
+    font-size: 2rem;
+    padding: 0 11%;
+    color: #a3b1bf;
+    margin-bottom: 4rem;
+}
+.banner .banner-btn{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    border-radius: .4rem;
+    padding: 1.5rem 5rem;
+    background: #00bc9c;
+}
+.banner .banner-btn:hover{
+    background: #17a78b;
+}
+
+/*beautifull ssection starts*/
+.beautiful{
+    padding: 7rem 0;
+}
+.beautiful h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #506A85;
+    font-size: 4rem;
+    margin-bottom:4rem;
+}
+.beautiful p{
+    text-align: center;
+    padding: 0 15%;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+    color: #73879C;
+    font-weight: 600;
+}
+.beautiful .beautiful-content{
+    margin-top: 4rem;
+}
+.beautiful .beautiful-content img{
+    float: right;
+}
+.beautiful .beautiful-content h2{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #506a85;
+    font-weight: 600;
+}
+.beautiful .beautiful-content p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 0;
+    text-align: start;
+    
+}
+/*check starts*/
+
+.check{
+    padding: 8rem 0;
+    background: #f2f5f7;
+}
+.check h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #506A85;
+    font-size: 4rem;
+    margin-bottom:4rem;
+}
+.check p{
+    text-align: center;
+    padding: 0 15%;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+    color: #73879C;
+    font-weight: 600;
+}
+.check .card{
+    border: none;
+    
+}
+.check .card .hover{
+    position: relative;
+}
+.check .card .hover:hover .overlay{
+    opacity: .5;
+}
+.check .card .hover:hover .overlay a 1{
+    opacity: 1;
+}
+.check .card .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background:#11B89A; 
+    transition: all .4s linear;
+}
+.check .card .overlay a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color:#fff;
+    opacity: 1;
+    
+}
+.check .card .card-body{
+   margin-top: 2rem;
+}
+.check .card .card-body h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #506A85;
+    font-size: 2rem;
+    transition: all .4s linear;
+}
+.check .card .card-body h4:hover{
+    color: #15A88B;
+}
+.check .card .card-body p{
+    font-size: 1.8rem;
+    color: #73879C;
+    font-weight: 400;
+}
+.check .check-carousel{
+    padding: 7rem 0 0 0;
+}
+.check .item .hover{
+    position: relative;
+}
+.check .item .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background:#11B89A; 
+    transition: all .4s linear;
+}
+.check .item .overlay a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color:#fff;
+    opacity: 1;
+    
+}
+.check .item .hover:hover .overlay{
+    opacity: .5;
+}
+
+.check .check-carousel .owl-prev{ 
+    height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;    
+}
+.check .check-carousel .owl-prev:hover{
+    background: #506a85!important;
+}
+.check .check-carousel .owl-prev:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel span{
+    font-size: 6rem!important;
+    color: #fff!important;
+}
+.check .check-carousel .owl-next{ 
+     height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;
+}
+.check .check-carousel .owl-next:hover{  
+    background: #506a85!important;
+}
+.check .check-carousel .owl-next:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel .owl-dot{  
+   
+}
+/*work section starts*/
+.work{
+    padding: 8rem;
+}
+.work h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #506A85;
+    font-size: 4rem;
+    margin-bottom:4rem;
+}
+.work p{
+    text-align: center;
+    padding: 0 15%;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+    color: #73879C;
+    font-weight: 600;
+}
+.work form{}
+.work form .work-btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    background: #00bc9c;
+}
+.work form .work-btn:hover{
+    background: #17a78b;
+    
+}
+
+/*contact section starts*/
+/*contact logo*/
+.contact{
+    padding: 6rem 0;
+    background: #2f4052;
+}
+.contact h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    
+}
+.contact .contact-logo .img{
+    position: relative;
+}
+.contact .contact-logo .img .img-1{
+   
+}
+.contact .contact-logo .img-1:hover{
+   
+}
+.contact .contact-logo .img .img-2{
+   
+}
+.contact .contact-logo .img .img-2:hover{
+}
+
+.contact .contact-logo p{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    margin-bottom: 3rem;
+    color: #a3b1bf;
+    font-weight: 400;
+}
+.contact .contact-logo a{
+    color: #a3b1bf;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+.contact .contact-logo a:hover{
+    color: #00BC9C;
+}
+.contact .contact-logo a i{
+    margin-left: 1rem;
+    transition: all .3s linear;
+}
+.contact .contact-logo a:hover i{
+    margin-left: 2rem;
+}
+
+
+/*contact works*/
+.contact .contact-works{}
+.contact .contact-works .hover{
+    position: relative;
+}
+.contact .contact-works .hover .img{
+    margin-bottom: 2rem;
+}
+.contact .contact-works .hover .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background:#11B89A; 
+    transition: all .4s linear;
+
+}
+.contact .contact-works .hover:hover .overlay{
+    opacity: .5;
+}
+.contact .hover .overlay a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color:#fff;
+    opacity: 1;
+}
+
+
+
+
+
+
+/*contact touch*/
+
+.contact .contact-touch{}
+.contact .contact-touch p{
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    margin-bottom: 3rem;
+    color: #a3b1bf;
+    font-weight: 400;
+}
+.contact .contact-touch span{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #a3b1bf;  
+    display: block;
+
+}
+.contact .contact-touch span i{
+    margin-right: 1rem;
+}
+.contact .contact-touch a{
+    color: #a3b1bf;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+.contact .contact-touch a:hover{
+    color: #00BC9C;
+}
+.contact .contact-touch a i{
+    margin-right: 1rem;
+}
+
+/*contact updates*/
+.contact .contact-updates{}
+.contact .contact-updates h5{}
+.contact .contact-updates p{
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    margin-bottom: 3rem;
+    color: #a3b1bf;
+    font-weight: 400;
+}
+.contact .contact-updates form{
+    width: 100%;
+    position: relative;
+}
+.contact .contact-updates input{
+    width: 100%;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #4e5c6c;
+    border: none;
+    padding: 1.5rem;
+    padding-right: 45%;
+}
+.contact .contact-updates input::placeholder{
+    color: #828e99;
+    font-size: 1.2rem;
+}
+.contact .contact-updates input:hover placeholder{
+    color: #fff;
+}
+.contact .contact-updates .contact-btn{
+    position: absolute;
+    top: 16%;
+    right: .5rem;
+    display: block;
+    padding: .5rem 1rem;
+    background: #00bc9c;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact .contact-updates .contact-btn:hover{
+    background:#17a78b;
+}
+.contact .contact-updates {}
+
+/*footer*/
+footer{
+    background: #283645;
+    padding: 2rem 0;
+}
+footer p{
+    font-size: 1.3rem;
+    color: #707e8c;
+    font-weight: 400;
+}
+footer .footer-menu{
+    width: 100%;
+}
+footer ul{
+    float: right;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 1.6rem;
+}
+footer ul li a{
+    font-size: 1.8rem;
+    color: #707e8c;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all .3s linear;
+}
+footer ul li a:hover{
+    color: #00bc9c;
+}
+footer ul li a i{
+    color: #707e8c;
+    margin-left: .5rem;
+    font-size: .5rem;
+}
+footer ul li a i:hover{
+    color: #707e8c;
+}
+footer .top{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+    text-align: center;
+    background: #3c5065;
+    color: #fff;
+    border: none;   
+}
+footer .top i{
+    font-size: 1.6rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+/*header top*/
+/*header nav starts*/
+.header-nav .navbar-brand{
+    width: 15%;
+}
+.header-nav .navbar-brand img{
+    width: 100%;
+}
+.header-nav .navbar-nav{
+    margin-right: 3rem;
+    
+}
+.header-nav .nav-item{
+    margin-left: 1rem
+}
+.header-nav .nav-link{
+    font-size: 1.6rem;
+}
+/*################### mega offer hover ##########################*/
+.mega{
+    
+}
+.mega:hover .mega-menu{
+    display: block;
+}
+
+/*focus on*/
+.mega-menu{
+    display: none;
+    top: 83%;
+    
+}
+.mega-menu h5{
+    font-size: 2.5rem;
+}
+.focus .card-body p{
+    padding-right: 2rem;
+}
+/*special pages*/
+.pages{
+    padding: 0;
+    }
+.pages h5{}
+.pages ul{
+    list-style: none;
+}
+.pages ul li{
+    margin-bottom:1rem;
+}
+.pages ul li a{
+    font-size: 1.5rem;
+}
+/*latest works*/
+/*about us*/
+/*##########################end##########################*/
+
+/*banner starts*/
+/*beautifull ssection starts*/
+.beautiful{
+    padding: 7rem 0;
+}
+.beautiful h1{
+    font-size: 5rem;
+    margin-bottom:5rem;
+}
+.beautiful p{
+    padding: 0 10%;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+.beautiful .beautiful-content{
+    margin-top: 5rem;
+}
+.beautiful .beautiful-content h2{
+    text-transform: capitalize;
+    font-size: 4rem;
+}
+.beautiful .beautiful-content p{
+    font-size: 2rem;
+    line-height: 3rem;    
+}
+/*check starts*/
+
+.check{
+    padding: 7rem 0;
+}
+.check h1{
+    font-size: 5rem;
+    margin-bottom:5rem;
+}
+.check p{
+    padding: 0 10%;
+    margin-bottom: 5rem;
+    color: #73879C;
+    font-weight: 400;
+}
+.check .check-carousel{
+    padding: 7rem 0 0 0;
+}
+.check .item .hover{
+    position: relative;
+}
+.check .item .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background:#11B89A; 
+    transition: all .4s linear;
+}
+.check .item .overlay a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color:#fff;
+    opacity: 1;
+    
+}
+.check .item .hover:hover .overlay{
+    opacity: .5;
+}
+
+.check .check-carousel .owl-prev{ 
+    height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;    
+}
+.check .check-carousel .owl-prev:hover{
+    background: #506a85!important;
+}
+.check .check-carousel .owl-prev:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel span{
+    font-size: 6rem!important;
+    color: #fff!important;
+}
+.check .check-carousel .owl-next{ 
+     height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;
+}
+.check .check-carousel .owl-next:hover{  
+    background: #506a85!important;
+}
+.check .check-carousel .owl-next:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel .owl-dot{  
+   
+}
+/*work section starts*/
+.work{
+    padding: 7rem;
+}
+.work h1{
+    font-size: 5rem;
+    margin-bottom:5rem;
+}
+.work p{
+    font-weight: 400;
+}
+/*contact section starts*/
+/*contact logo*/
+.contact{
+    padding: 6rem 0;
+    background: #2f4052;
+}
+.contact h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    
+}
+.contact .contact-logo .img{
+    position: relative;
+}
+.contact .contact-logo .img .img-1{
+   
+}
+.contact .contact-logo .img-1:hover{
+   
+}
+.contact .contact-logo .img .img-2{
+   display: none;
+}
+.contact .contact-logo .img .img-2:hover{
+}
+
+.contact .contact-logo p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.contact .contact-logo a{
+    font-size: 2rem;
+}
+/*contact works*/
+.contact .contact-works{}
+.contact .contact-works .hover{
+    position: relative;
+}
+/*contact touch*/
+
+.contact .contact-touch{}
+.contact .contact-touch p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
+    color: #a3b1bf;
+    font-weight: 400;
+}
+.contact .contact-touch span{
+    margin-bottom: 3rem;
+
+}
+.contact .contact-touch span i{
+    margin-right: 1rem;
+}
+.contact .contact-touch a{
+    font-size: 1.8rem;
+}
+/*contact updates*/
+.contact .contact-updates{}
+.contact .contact-updates h5{}
+.contact .contact-updates p{
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    margin-bottom: 3rem;
+    color: #a3b1bf;
+    font-weight: 400;
+}
+.contact .contact-updates form{
+    position: static;
+}
+.contact .contact-updates input{
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.contact .contact-updates input::placeholder{
+    font-size: 1.6rem;
+}
+.contact .contact-updates .contact-btn{
+    position: static;
+    display: block;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+}
+/*footer*/
+footer{
+    background: #283645;
+    padding: 2rem 0;
+}
+footer p{
+    font-size: 1.8rem;
+}
+    footer ul{
+        margin-right: 3rem;
+    }
+footer ul li a{
+    font-size: 1.8rem;
+}
+footer .top{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+    text-align: center;
+    background: #3c5065;
+    color: #fff;
+    border: none;   
+}
+footer .top i{
+    font-size: 1.6rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    /*GLOBAL */
+html{
+    font-size:8px;
+}
+/*header top*/
+/*header nav starts*/
+
+.header-nav .navbar-brand{
+    width: 20%;
+}
+.header-nav .navbar-nav{
+    margin-right: 0rem;
+    
+}
+.header-nav .nav-item{
+    margin-left: 0rem
+}
+.header-nav .nav-link{
+    font-size: 2rem;
+}
+/*################### mega offer hover ##########################*/
+.mega{
+    
+}
+.mega:hover{
+    color: #00bc9c!important;
+    background: #f5f7fa;
+}
+.mega:hover .mega-menu{
+    display: block;
+}
+
+/*focus on*/
+.mega-menu{
+    display:block;
+    left: 17%;
+    top: 68%;
+    width: 92%;
+    
+}
+.mega-menu h5{
+    font-size: 2.4rem;
+}
+
+
+/*##########################end##########################*/
+
+/*banner starts*/
+/*beautifull ssection starts*/
+.beautiful h1{
+    font-size: 5rem;
+}
+.beautiful p{
+    padding: 0 10%;
+}
+/*check starts*/
+.check h1{
+    font-size: 5rem;
+}
+.check .check-carousel{
+    padding: 7rem 0 0 0;
+}
+.check .item .hover{
+    position: relative;
+}
+.check .item .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background:#11B89A; 
+    transition: all .4s linear;
+}
+.check .item .overlay a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color:#fff;
+    opacity: 1;
+    
+}
+.check .item .hover:hover .overlay{
+    opacity: .5;
+}
+
+.check .check-carousel .owl-prev{ 
+    height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;    
+}
+.check .check-carousel .owl-prev:hover{
+    background: #506a85!important;
+}
+.check .check-carousel .owl-prev:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel span{
+    font-size: 6rem!important;
+    color: #fff!important;
+}
+.check .check-carousel .owl-next{ 
+     height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;
+}
+.check .check-carousel .owl-next:hover{  
+    background: #506a85!important;
+}
+.check .check-carousel .owl-next:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel .owl-dot{  
+   
+}
+/*work section starts*/
+.work{
+    padding: 7rem 0;
+}
+.work h1{
+    font-size: 5rem;
+}
+.work p{
+    padding: 0 10%;
+}
+.work form{}
+.work form .work-btn{
+}
+.work form .work-btn:hover{
+    
+}
+
+/*contact section starts*/
+/*contact logo*/
+.contact{
+    padding: 6rem 0;
+    background: #2f4052;
+}
+.contact h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    
+}
+.contact .contact-logo .img{
+    position: relative;
+}
+.contact .contact-logo .img .img-1{
+   
+}
+.contact .contact-logo .img-1:hover{
+   
+}
+.contact .contact-logo .img .img-2{
+   display: none;
+}
+.contact .contact-logo .img .img-2:hover{
+}
+
+.contact .contact-logo p{
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+}
+/*contact works*/
+/*contact touch*/
+
+.contact .contact-touch{}
+.contact .contact-touch p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
+    color: #a3b1bf;
+    font-weight: 400;
+}
+.contact .contact-touch span{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 5rem;
+
+}
+.contact .contact-touch a{
+    font-size: 1.8rem;
+}
+/*contact updates*/
+.contact .contact-updates{}
+.contact .contact-updates h5{}
+.contact .contact-updates p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.contact .contact-updates form{
+    width: 100%;
+    position: static;
+}
+.contact .contact-updates input{
+    
+    font-size: 1.8rem;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+}
+.contact .contact-updates input::placeholder{
+    font-size: 1.5rem;
+}
+.contact .contact-updates .contact-btn{
+    position: static;
+    margin: 0 auto;
+    display: block;
+    padding: .5rem 1rem;
+}
+/*footer*/
+footer{
+    background: #283645;
+    padding: 2rem 0;
+}
+footer p{
+    
+    font-size: 1.3rem;
+    color: #707e8c;
+    font-weight: 400;
+}
+footer .footer-menu{
+    width: 100%;
+    text-align: center;
+}
+footer ul{
+    float: none;
+}
+footer .top i{
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+}
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px){
+/*header top*/
+.header-top .left{
+    width: 50%;
+    }
+.header-top .left a{
+    display:block;
+    font-size: 1.6rem;
+}
+.header-top .left a i{
+    margin-right: 2rem;
+}
+.header-top .left p{
+    font-size: 1.6rem;
+    margin-left: 0rem;
+}
+.header-top .left p i{
+    margin-right: 1.5rem
+}
+.header-top .right{
+    width: 50%;
+    }
+.header-top .right a{
+    display: inline-block;
+    margin-left: 1rem;
+    
+}
+
+.header-top .right a i{
+    font-size: 1.8rem;
+    height: 100%;
+    width: 2rem;
+}
+/*header nav starts*/
+.header-nav .navbar-brand{
+    width: 25%;
+}
+.header-nav .navbar-nav{
+    margin-right: 0rem;
+    
+}
+.header-nav .nav-item{
+    margin-left: 0rem
+}
+.header-nav .nav-link{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #506a85;
+    transition: all .2s linear;
+    border: 1px solid transparent
+}
+.header-nav .nav-link:hover{
+    color: #00bc9c!important;
+    border: 1px solid #e6e9ed;
+    border-bottom: 1px solid #e6e9ed;
+    border-right: none;
+}
+.header-nav form a{
+    font-size: 1.4rem;
+    color: #506A85;
+}
+/*################### mega offer hover ##########################*/
+.mega{
+    
+}
+.mega:hover{
+    color: #00bc9c!important;
+    background: #f5f7fa;
+}
+.mega:hover .mega-menu{
+    display: block;
+}
+
+/*focus on*/
+.mega-menu{
+    display:none;
+    left: 20%;
+    top: 67%;
+    width: 90%;   
+}
+.focus{
+    border: none;
+    margin-bottom: 5rem;
+}
+.mega-menu h5{
+    font-size: 3rem;
+}
+.focus .card-body p{
+    padding-right: 5rem;
+}
+.focus .focus-btn{
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    border: none;
+    background: #17a78b;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+/*special pages*/
+.pages{
+    margin-bottom: 5rem;
+    }
+.pages h5{}
+.pages ul{
+    list-style: none;
+}
+.pages ul li{
+    margin-bottom: 1.5rem;
+}
+.pages ul li a{
+    font-size: 1.6rem;
+}
+/*latest works*/
+.works .hover{
+    position: relative;
+}
+.works .hover .img{
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+.works .hover .img img{
+    width: 100%;
+}
+/*about us*/
+
+.about{}
+.about h5{}
+.about p{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #73879c;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.about button{}
+.about .about-btn{
+    font-size: 1.6rem;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    border: none;
+    background: #17a78b;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+
+/*##########################end##########################*/
+
+/*banner starts*/
+
+.banner{
+    padding: 10rem 0;   
+}
+.banner .banner-content{
+    text-align: center;
+}
+.banner h1{
+    letter-spacing: 0rem;
+    word-spacing: .5rem;
+    font-size: 4.6rem;
+}
+.banner p{
+    font-size: 2rem;
+    padding: 0 5%;
+}
+.banner .banner-btn{
+    border-radius: 0rem;
+    padding: 1rem 3rem;
+}
+
+/*beautifull ssection starts*/
+.beautiful{
+    padding: 7rem 0;
+}
+.beautiful h1{
+    font-size: 3.9rem;
+}
+.beautiful p{
+    text-align: center;
+    padding: 0 5%;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.beautiful .beautiful-content{
+    margin-top: 4rem;
+}
+.beautiful .beautiful-content img{
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.beautiful .beautiful-content h2{
+    font-size: 3.5rem;
+    text-align: center;
+    }
+.beautiful .beautiful-content p{
+   
+    
+}
+/*check starts*/
+
+.check{
+    padding: 6rem 0;
+}
+.check h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #506A85;
+    font-size: 3.9rem;
+    margin-bottom:4rem;
+}
+.check p{
+    padding: 0 10%;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.check .card .card-body{
+   margin-top: 2rem;
+}
+.check .card .card-body h4{
+    font-size: 2.5rem;
+}
+.check .card .card-body p{
+    margin-top: 3rem;
+}
+.check .check-carousel{
+    padding: 7rem 0 0 0;
+}
+.check .item .hover{
+    position: relative;
+}
+.check .item .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background:#11B89A; 
+    transition: all .4s linear;
+}
+.check .item .overlay a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color:#fff;
+    opacity: 1;
+    
+}
+.check .item .hover:hover .overlay{
+    opacity: .5;
+}
+
+.check .check-carousel .owl-prev{ 
+    height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;    
+}
+.check .check-carousel .owl-prev:hover{
+    background: #506a85!important;
+}
+.check .check-carousel .owl-prev:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel span{
+    font-size: 6rem!important;
+    color: #fff!important;
+}
+.check .check-carousel .owl-next{ 
+     height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;
+}
+.check .check-carousel .owl-next:hover{  
+    background: #506a85!important;
+}
+.check .check-carousel .owl-next:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel .owl-dot{  
+   
+}
+/*work section starts*/
+.work{
+    padding: 6rem 0;
+}
+.work h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #506A85;
+    font-size: 4rem;
+    margin-bottom:4rem;
+}
+.work p{
+    text-align: center;
+    padding: 0 5%;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+.work form{}
+.work form .work-btn{
+    padding: .8rem 2rem;
+}
+.work form .work-btn:hover{
+    background: #17a78b;
+    
+}
+
+/*contact section starts*/
+/*contact logo*/
+.contact{
+    padding: 6rem 0;
+    background: #2f4052;
+   
+}
+.contact h5{
+    font-size: 3rem;
+}
+.contact .contact-logo{
+    margin-bottom: 5rem;
+}
+.contact .contact-logo .img{
+    
+}
+.contact .contact-logo .img .img-1{
+   
+}
+.contact .contact-logo .img-1:hover{
+   
+}
+.contact .contact-logo .img .img-2{
+   display: none;
+}
+.contact .contact-logo .img .img-2:hover{
+}
+
+.contact .contact-logo p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.contact .contact-logo a{
+    color: #00BC9C;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+/*contact works*/
+.contact .contact-works{
+    margin-bottom: 5rem;
+}
+/*contact touch*/
+
+.contact .contact-touch{
+    margin-bottom: 5rem;
+    }
+.contact .contact-touch p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.contact .contact-touch span{
+    margin-bottom: 4rem;
+
+}
+.contact .contact-touch a{
+    color: #00BC9C;
+    font-size: 1.8rem;
+}
+/*contact updates*/
+.contact .contact-updates{}
+.contact .contact-updates h5{}
+.contact .contact-updates p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.contact .contact-updates form{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+.contact .contact-updates input::placeholder{
+    font-size: 1.8rem;
+}
+/*footer*/
+footer{
+    background: #283645;
+    padding: 2rem 0;
+}
+footer p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+footer .footer-menu{
+    width: 100%;
+}
+footer ul{
+    float: none;
+    text-align: center;
+}
+footer .top{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+    text-align: center;
+    background: #3c5065;
+    color: #fff;
+    border: none;   
+}
+footer .top i{
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+}
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*GLOBAL */
+html{
+    font-size:10px;
+}
+/*header top*/
+.header-top{
+     display: none;
+    background:#f5f7fa;
+}
+.header-top .left{
+    width: 50%;
+}
+.header-top .left a{
+    display: block;
+    font-size: 1.5rem;
+    color: #506a85;
+}
+.header-top .left a:hover{
+    color: #00bc9c;
+}
+.header-top .left a i{
+    margin-right: 1.5rem;
+}
+.header-top .left p{
+    display: block;
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    color: #506a85;
+}
+.header-top .left p i{
+    margin-right: 1rem
+}
+.header-top .right{
+    width: 50%;
+}
+.header-top .right a{
+    margin-left: 1rem;
+}
+
+.header-top .right a i{
+    font-size: 1.8rem;
+    width: 2rem;
+    padding: 1.5rem 0;
+}
+/*header nav starts*/
+
+.header-nav{
+}
+.header-nav .navbar-brand{
+    width: 20%;
+}
+.header-nav .navbar-nav{
+    margin-right: 0rem;
+    
+}
+.header-nav .nav-item{
+    margin-left: 2rem
+}
+.header-nav .nav-link{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #506a85;
+    transition: all .2s linear;
+    border: 1px solid transparent
+}
+.header-nav .nav-link:hover{
+    color: #00bc9c!important;
+    border: 1px solid #e6e9ed;
+    border-bottom:1px solid #e6e9ed;
+    border-right: none;
+}
+.header-nav form a{
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    color: #506A85;
+}
+/*################### mega offer hover ##########################*/
+.mega{
+    
+}
+.mega:hover{
+    color: #00bc9c!important;
+    background: #f5f7fa;
+}
+.mega:hover .mega-menu{
+    display: block;
+}
+
+/*focus on*/
+.mega-menu{
+    display:none;
+    left: 30%;
+    position: absolute;
+    top: 65%;
+    background: #f5f7fa;
+    padding: 5rem 0;
+    width: 70%;
+    z-index: 1;
+    
+}
+.focus{
+    border: none;
+    margin-bottom: 5rem;
+}
+.focus h5{
+    font-size: 3rem;
+}
+
+.focus .card-body{
+    padding: 0;
+}
+.focus .card-body p{
+    padding-right: 3rem;
+}
+.focus .focus-btn{
+    margin-top: 5rem;
+}
+/*special pages*/
+.pages{
+    margin-bottom: 5rem;
+}
+/*latest works*/
+.mega-menu .works .hover{
+    position: relative;
+}
+.mega-menu .works .hover .img{
+    width: 100%;
+    margin-bottom: 2.5rem;
+    
+}
+.mega-menu .works .hover .img img{
+    width: 100%;
+}
+
+/*about us*/
+
+.about{
+   padding: 0 3rem 0 2rem;
+}
+.about h5{}
+/*##########################end##########################*/
+
+/*banner starts*/
+
+.banner{
+    padding: 10rem 0;  
+}
+.banner .banner-content{
+    text-align: center;
+}
+.banner h1{
+    font-weight: 900;
+    letter-spacing: 0rem;
+    word-spacing: .5rem;
+    font-size: 3.3rem; 
+}
+.banner p{
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 0 2%;
+    margin-bottom: 4rem;
+}
+.banner .banner-btn{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    border-radius: .4rem;
+    padding: 1rem 2rem;
+}
+/*beautifull ssection starts*/
+.beautiful{
+    padding: 7rem 0;
+}
+.beautiful h1{
+    font-size: 2.8rem;
+    width: 100%;
+}
+.beautiful p{
+    text-align: center;
+    padding: 0 5%;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.beautiful .beautiful-content{
+    margin-top: 4rem;
+}
+.beautiful .beautiful-content img{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+.beautiful .beautiful-content h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.beautiful .beautiful-content p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;    
+}
+/*check starts*/
+
+.check{
+    padding: 7rem 0;
+}
+.check h1{
+    font-size: 2.8rem;
+    
+}
+.check p{
+    text-align: center;
+    padding: 0 5%;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.check .check-carousel{
+    padding: 7rem 0 0 0;
+}
+.check .item .hover{
+    position: relative;
+}
+.check .item .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background:#11B89A; 
+    transition: all .4s linear;
+}
+.check .item .overlay a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color:#fff;
+    opacity: 1;
+    
+}
+.check .item .hover:hover .overlay{
+    opacity: .5;
+}
+
+.check .check-carousel .owl-prev{ 
+    height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;    
+}
+.check .check-carousel .owl-prev:hover{
+    background: #506a85!important;
+}
+.check .check-carousel .owl-prev:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel span{
+    font-size: 6rem!important;
+    color: #fff!important;
+}
+.check .check-carousel .owl-next{ 
+     height: 63px!important;
+    width: 50px!important;
+    line-height: 50px!important;
+    background: #c9d2da!important;
+    margin-right: rem;
+    transition: all .4s linear;
+}
+.check .check-carousel .owl-next:hover{  
+    background: #506a85!important;
+}
+.check .check-carousel .owl-next:hover span{
+    color: #00bc9c!important;
+}
+.check .check-carousel .owl-dot{  
+   display: none;
+}
+/*work section starts*/
+.work{
+    padding: 7rem 0;
+}
+.work h1{
+    font-size: 3.4rem;
+}
+.work p{
+    text-align: center;
+    padding: 0 5%;
+}
+.work form{}
+.work form .work-btn{
+    padding: .8rem 2rem;
+}
+/*contact section starts*/
+/*contact logo*/
+.contact{
+    padding: 6rem 0;
+    background: #2f4052;
+}
+.contact h5{
+    font-size: 2.5rem;    
+}
+.contact .contact-logo{
+    margin-bottom: 5rem;
+}
+.contact .contact-logo .img{
+   
+}
+.contact .contact-logo .img .img-1{
+    position: relative;
+}
+.contact .contact-logo .img-1:hover{
+   
+}
+.contact .contact-logo .img .img-2{
+   position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.contact .contact-logo .img .img-1:hover .img-2{
+    z-index: 1;
+}
+
+.contact .contact-logo p{
+    padding-right: 4rem;
+}
+.contact .contact-logo a{
+    color: #00BC9C;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+.contact .contact-logo a:hover{
+    color: #00BC9C;
+}
+.contact .contact-logo a i{
+    margin-left: 1rem;
+    transition: all .3s linear;
+}
+.contact .contact-logo a:hover i{
+    margin-left: 2rem;
+}
+
+
+/*contact works*/
+.contact .contact-works{
+    margin-bottom: 5rem;
+    }
+.contact .contact-works .hover{
+    position: relative;
+}
+.contact .contact-works .hover .img{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.contact .contact-works .hover .img img{
+    width: 100%;
+}  
+/*contact touch*/
+
+.contact .contact-touch{
+    margin-bottom: 5rem;
+    }
+.contact .contact-touch p{
+    padding-right: 3rem;
+}
+.contact .contact-touch span{
+    margin-bottom: 3rem;
+}
+.contact .contact-touch a{
+    color: #00BC9C;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+
+/*contact updates*/
+.contact .contact-updates{}
+.contact .contact-updates h5{}
+.contact .contact-updates p{
+    padding-right: 3rem;
+}
+.contact .contact-updates form{
+    width: 100%;
+    position: relative;
+}
+.contact .contact-updates input{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-right: 30%;
+}
+.contact .contact-updates input::placeholder{
+    font-size: 1.5rem;
+}
+.contact .contact-updates .contact-btn{
+    top: 17%;
+    right: 6rem;
+}
+/*footer*/
+footer{
+    background: #283645;
+}
+footer p{
+    font-size: 1.6rem;
+    color: #707e8c;
+    font-weight: 400;
+    text-align: center;
+}
+footer .footer-menu{
+    width: 100%;
+}
+footer ul{
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+footer ul li a{
+    font-size: 1.2rem;
+}
+footer .top{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+    text-align: center;
+    background: #3c5065;
+    color: #fff;
+    border: none;   
+}
+footer .top i{
+    font-size: 1.6rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+}
